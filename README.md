@@ -10,12 +10,3 @@ Emacs Alt-tab is an extension for <a href="http://www.gnu.org/software/emacs/">G
 We call it Alt-Tab because of the shortcut on most operating systems that allows switching between top-level windows without using the mouse. Click <a href="http://en.wikipedia.org/wiki/Alt-Tab">here</a> to read more about that.
 
 <hr/>
-
-</h3>Version 1</h3>
-
-Hello world! This is the first version. Expect updates in the near future. 
-
-<b>Changes:</b>
-<ul>
- <li>Added a lot of stuff.</li>
-</ul>
