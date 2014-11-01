@@ -18,8 +18,6 @@ Installation
 
 `(require 'alt-tab)`
 
-4. And you are done! 
-
 Why do we call it Alt-Tab?
 =======
 
