@@ -13,8 +13,12 @@ Features
 Installation
 =======
 
-1. Simply dowload this repo. and extract it to your Emacs directory ( ex. `.emacs.d` ).
+1. Download this repository and extract it to your Emacs directory ( ex. `.emacs.d` ).
 2. Add the following lines of code to your `.emacs` file:
+
+`(require 'alt-tab)`
+
+4. And you are done! 
 
 Why do we call it Alt-Tab?
 =======
