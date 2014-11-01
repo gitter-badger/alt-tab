@@ -35,7 +35,6 @@
 	  (desktop-save-in-desktop-dir)
 	(message "Session not saved."))
     (desktop-save-in-desktop-dir)))
-    
 
 ;; Transposing Buffers
 
@@ -51,3 +50,6 @@
         (select-window (funcall selector)))
       (setq arg (if (plusp arg) (1- arg) (1+ arg))))))
 
+;; I provide!
+
+(provide 'alt-tab)
