@@ -1,4 +1,4 @@
-;; Welcome to Alt-Tab
+;; Alt-Tab
 ;; Created by: Luke Shimkus
 
 ;; Sessions
