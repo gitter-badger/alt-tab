@@ -1,4 +1,4 @@
-;; Alt-Tab
+;; Welcome to Alt-Tab
 ;; Created by: Luke Shimkus
 
 ;; Sessions
@@ -56,6 +56,14 @@
         (set-window-buffer (funcall selector) this-win)
         (select-window (funcall selector)))
       (setq arg (if (plusp arg) (1- arg) (1+ arg))))))
+
+;; Open buffer in new frame
+
+(defun open-buffer-frame ()
+  "Opens a buffer in a new frame"
+  (interactive)
+  (make-frame-command)
+  )
 
 ;; Provide!
 
