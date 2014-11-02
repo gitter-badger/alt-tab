@@ -26,7 +26,7 @@ How to use
 <kbd>M-x</kbd>`session-restore` - Restores you previous saved session.
 
 <b>Buffers</b><br/>
-<kbd>M-x</kbd>`transpose-buffers` - Switches the buffers around. 
+<kbd>M-x</kbd>`transpose-buffers` - Switches the buffers around. <br/>
 <kbd>M-x</kbd>`open-buffer-frame` - Opens the current buffer in a new frame.
 
 Why do we call it Alt-Tab?
