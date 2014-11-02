@@ -23,7 +23,7 @@ How to use
 
 Let's say I have a flawless session open, that I spent a long time making, like below:
 
-
+<img src="http://lukeshimkus.com/emacssessions.png" />
 
 And I want to keep this session for later use... What I would do is:
 
