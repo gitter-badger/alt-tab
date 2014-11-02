@@ -18,6 +18,21 @@ Installation
 
 `(require 'alt-tab)`
 
+How to use
+=======
+
+Let's say I have a flawless session open, that I spent a long time making, like below:
+
+
+
+And I want to keep this session for later use... What I would do is:
+
+1. Call the `session-save` command or <kbd>M-x</kbd>`session-save`.
+2. Close out of Emacs.
+3. Call the `session-restore` command or <kbd>M-x</kbd>`session-restore`.
+4. Wala! Your previous saved session is now restored.
+
+
 Why do we call it Alt-Tab?
 =======
 
