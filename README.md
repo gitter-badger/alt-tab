@@ -21,8 +21,12 @@ Installation
 How to use
 =======
 
-Titles and Section headers
---------------------------
+<b>Sessions</b><br/>
+<kbd>M-x</kbd>`session-save` - Saves your current session for use later. <br/>
+<kbd>M-x</kbd>`session-restore` - Restores you previous saved session.
+
+<b>Buffers</b><br/>
+<kbd>M-x</kbd>`transpose-buffers` - Switches the buffers around. 
 
 Why do we call it Alt-Tab?
 =======
