@@ -2,23 +2,25 @@
 ;; Created by: Luke Shimkus
 
 ;; Sessions
-  
-;; use only one desktop
+;; Sessions
+;; Sessions
+
+;; Use only one desktop for now
+
 (setq desktop-path '("~/.emacs.d/"))
 (setq desktop-dirname "~/.emacs.d/")
 (setq desktop-base-file-name "workflow-desktop")
 
-;; remove desktop after it's been read
 (add-hook 'desktop-after-read-hook
 	  '(lambda ()
-	     ;; desktop-remove clears desktop-dirname
 	     (setq desktop-dirname-tmp desktop-dirname)
 	     (setq desktop-dirname desktop-dirname-tmp)))
 
 (defun saved-session ()
   (file-exists-p (concat desktop-dirname "/" desktop-base-file-name)))
 
-;; use session-restore to restore the desktop manually
+;; Use session-restore to restore the desktop manually
+
 (defun session-restore ()
   "Restore a saved emacs session."
   (interactive)
@@ -26,7 +28,8 @@
       (desktop-read)
     (message "No desktop found.")))
 
-;; use session-save to save the desktop manually
+;; Use session-save to save the desktop manually
+
 (defun session-save ()
   "Save an emacs session."
   (interactive)
@@ -35,6 +38,10 @@
 	  (desktop-save-in-desktop-dir)
 	(message "Session not saved."))
     (desktop-save-in-desktop-dir)))
+
+;; Buffers
+;; Buffers
+;; Buffers
 
 ;; Transposing Buffers
 
@@ -50,6 +57,7 @@
         (select-window (funcall selector)))
       (setq arg (if (plusp arg) (1- arg) (1+ arg))))))
 
-;; I provide!
+;; Provide!
 
 (provide 'alt-tab)
+
