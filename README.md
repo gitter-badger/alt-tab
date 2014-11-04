@@ -34,7 +34,7 @@ How to use
 <kbd>M-x</kbd>`kill-other-buffers` - Kills/Closes all buffers except the current one.
 
 <b>Getting Around</b><br/>
-<kbd>C-x</kbd> <kbd>C-b</kbd> - List all the buffers that you can select. Way easier then te default way.<br/>
+<kbd>C-e</kbd> - List all the buffers that you can select. A little different then the default `list-buffers`.<br/>
 
 Why do we call it Alt-Tab?
 =======
