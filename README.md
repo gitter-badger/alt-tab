@@ -12,8 +12,12 @@ Features
 Installation
 =======
 
-1. Download this repository and extract it to your Emacs directory ( ex. `.emacs.d` ).
-2. Add the following lines of code to your `.emacs` file:
+**1.** Download this repository and extract it to your Emacs directory ( ex. `.emacs.d` ).<br/>
+**2.** If you don't already have the following code in your `.emacs` file, add it:
+```lisp
+(add-to-list 'load-path "~/.emacs.d")
+```
+**3.** Add the following lines of code to your `.emacs` file:
 ```lisp
 (require 'alt-tab)
 ```
