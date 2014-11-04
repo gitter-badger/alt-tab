@@ -30,7 +30,8 @@ How to use
 
 <b>Buffers</b><br/>
 <kbd>M-x</kbd>`transpose-buffers` - Switches the buffers around. <br/>
-<kbd>M-x</kbd>`open-buffer-frame` - Opens the current buffer in a new frame.
+<kbd>M-x</kbd>`open-buffer-frame` - Opens the current buffer in a new frame. <br/>
+<kbd>M-x</kbd>`kill-other-buffers` - Kills/Closes all buffers except the current one.
 
 Why do we call it Alt-Tab?
 =======
