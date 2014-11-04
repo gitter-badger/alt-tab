@@ -33,6 +33,9 @@ How to use
 <kbd>M-x</kbd>`open-buffer-frame` - Opens the current buffer in a new frame. <br/>
 <kbd>M-x</kbd>`kill-other-buffers` - Kills/Closes all buffers except the current one.
 
+<b>Getting Around</b><br/>
+<kbd>C-x</kbd> <kbd>C-b</kbd> - List all the buffers that you can select. Wasier then te default way.<br/>
+
 Why do we call it Alt-Tab?
 =======
 
