@@ -15,9 +15,9 @@ Installation
 
 1. Download this repository and extract it to your Emacs directory ( ex. `.emacs.d` ).
 2. Add the following lines of code to your `.emacs` file:
-
-`(require 'alt-tab)`
-
+```lisp
+(require 'alt-tab)
+```
 How to use
 =======
 
