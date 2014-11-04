@@ -8,7 +8,6 @@ Features
 
 - Undemanding buffer transponding.
 - Painless session creator and restorer.
-- Uncomplicated workflow editor.
 
 Installation
 =======
