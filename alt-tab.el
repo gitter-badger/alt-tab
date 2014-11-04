@@ -72,6 +72,20 @@
       (interactive)
       (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
 
+
+;; Getting around
+;; Getting around
+;; Getting around
+
+(defun alt-tab-mode ()
+  (interactive)
+  (switch-to-buffer "*Buffer List*")
+  )
+
+(global-set-key (kbd "C-x C-b") 'alt-tab-mode)
+
+
+
 ;; Provide!
 
 (provide 'alt-tab)
