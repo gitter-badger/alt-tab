@@ -65,6 +65,13 @@
   (make-frame-command)
   )
 
+;; Close all buffers except the current one
+
+(defun kill-other-buffers ()
+      "Kill all other buffers."
+      (interactive)
+      (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
+
 ;; Provide!
 
 (provide 'alt-tab)
