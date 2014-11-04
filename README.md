@@ -1,5 +1,6 @@
 Emacs Alt-Tab
 =======
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/KingShimkus/alt-tab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Emacs Alt-tab is an extension for <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a>. Alt-Tab adds a sense of ease inside of Emacs. Whether it be switching buffers, or organizing your workspace.
 
