@@ -82,7 +82,7 @@
   (switch-to-buffer "*Buffer List*")
   )
 
-(global-set-key (kbd "C-x C-b") 'alt-tab-mode)
+(global-set-key (kbd "C-e") 'alt-tab-mode)
 
 
 
